@@ -1,4 +1,4 @@
-package com.billing;
+package com.billing.pojo;
 
 public class User  {
 	public User() {

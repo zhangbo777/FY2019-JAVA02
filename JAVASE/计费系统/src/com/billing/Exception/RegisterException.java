@@ -1,4 +1,4 @@
-package com.billing;
+package com.billing.Exception;
 
 public class RegisterException extends RuntimeException {
 	public RegisterException() {

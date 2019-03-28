@@ -29,11 +29,13 @@ public class UserBizImpl implements UserBiz {
 			User user = users[i];
 			if(user == null) {
 				user=user1;
-				
+				//System.out.println(user.name);
+				System.out.println("注册成功！");
+				break;
 			}
-			System.out.println(user.name);
+			
 		}
-		System.out.println("注册成功！");
+		
 	}
 
 	@Override

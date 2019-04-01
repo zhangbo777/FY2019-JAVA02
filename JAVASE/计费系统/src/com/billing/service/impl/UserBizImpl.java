@@ -29,8 +29,9 @@ public class UserBizImpl implements UserBiz {
 			User user = users[i];
 			if(user == null) {
 				user=user1;
-				//System.out.println(user.name);
+			
 				System.out.println("×¢²á³É¹¦£¡");
+				System.out.println(user.name);
 				break;
 			}
 			
